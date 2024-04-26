@@ -1,0 +1,26 @@
+1. Understand the provided neural network architecture
+2. Get familiar with provided dataset
+3. comprehend the equations of forward and backward propagation
+4. Load the provided dataset into a dataframe
+5. Visualize the first five entries of the data frame
+6. Convert the data given in the dataframe into a NumPy array
+7. Query the shape of the array and assign the returned values into two variables
+8. Shuffle the contents of the array
+	Use numpy's shuffle array
+9. Create a test set:
+	Use the first 1000 images of the dataset as the test set
+	Transpose the data
+	Take the first row as label of the test set
+	Take the remaining columns as the features of the test set
+	Normalize the feature values by dividing by 255
+10. Create a train set
+	Use the remaining images of the dataset as the train set
+	Transpose the data
+	Trake the first row as the labels of the train set
+	Take the remaining colums as the features of the train set
+	Normalize the features value by dividing by 255
+
+11. Generate a random index in the range dedicaed for training images
+12. Plot the image corresponding to the generated index
+	Use the reshape method to convert vectored image to its normal 2D form
+13. Write the functions
