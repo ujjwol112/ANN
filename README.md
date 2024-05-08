@@ -27,7 +27,7 @@ The dataset used in this project is the MNIST (Modified National Institute of St
 
 The MNIST dataset serves as a standard benchmark for evaluating the performance of machine learning algorithms, particularly in the domain of image classification. Its widespread usage stems from several factors, including its relatively small size, well-defined task (digit recognition), and availability of ground truth labels for evaluation. Researchers and practitioners often use the MNIST dataset to compare the efficacy of different algorithms, explore novel approaches to image classification, and demonstrate the capabilities of machine learning models in real-world applications.
 
-### Code Description
+## Code Description
 
 1. **Visualization and Preprocessing**
    - visualization and preprocessing of the MNIST digit dataset
