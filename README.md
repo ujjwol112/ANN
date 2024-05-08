@@ -27,15 +27,6 @@ The dataset used in this project is the MNIST (Modified National Institute of St
 
 The MNIST dataset serves as a standard benchmark for evaluating the performance of machine learning algorithms, particularly in the domain of image classification. Its widespread usage stems from several factors, including its relatively small size, well-defined task (digit recognition), and availability of ground truth labels for evaluation. Researchers and practitioners often use the MNIST dataset to compare the efficacy of different algorithms, explore novel approaches to image classification, and demonstrate the capabilities of machine learning models in real-world applications.
 
-## Code Description
-
-### 1. Visualization and Preprocessing
-- The random samples from each digit class are visualized to provide an overview of the dataset. It also performs preprocessing tasks such as data splitting, normalization, and reshaping.
-
-### 2. Neural Network Implementations
-- The notebook implements a basic neural network from scratch using NumPy. It includes functions for parameter initialization, forward and backward propagation, gradient descent, and model evaluation.
-- The digit classification is demonstrated using a neural network implemented with the help of the Scikit-learn library. It provides a simplified approach leveraging Scikit-learn's built-in functionalities for model building and evaluation.
-
 ### Code Description
 
 1. **Visualization and Preprocessing**
